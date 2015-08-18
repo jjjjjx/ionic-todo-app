@@ -1,0 +1,8 @@
+.item-checkbox .done-true {
+	color: #ccc;
+	text-decoration: line-through;
+}
+
+.button::after {
+	z-index: 5;
+}
