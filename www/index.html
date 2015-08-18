@@ -32,7 +32,7 @@
           </button>
           <h1 class="title">{{ activeProject.title }}</h1>
           <!-- New Task button -->
-          <button class="button button-icon" ng-click="newTask()">
+          <button class="button button-icon" ng-click="newTask()" ng-hide="projects.length === 0">
             <i class="icon ion-compose"></i>
           </button>
         </ion-header-bar>
