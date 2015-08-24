@@ -18,7 +18,7 @@ angular.module('todo', ['ionic'])
       }
       return [];
     },
-    save: function(Projects) {
+    save: function(projects) {
       window.localStorage['projects'] = angular.toJson(projects);
     },
     newProject: function(projectTitle) {
